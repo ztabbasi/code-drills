@@ -1,7 +1,7 @@
 // Section 1 
-// Set a variable of userTyped and use get element by id or query selector and set it equal to the element with the id of letterTyped 
+// Set a variable of userTyped and use get element by id or query selector and attach it to the string of letterTyped 
 
-// Set a variable of letterUsed and use get element by id or query selector and set it equal to the element with the id of lastLetter 
+// Set a variable of letterUsed and use get element by id or query selector and attach it to the string of lastLetter 
 
 // create a variable called LetterUsedArray and have it equal and empty array
 

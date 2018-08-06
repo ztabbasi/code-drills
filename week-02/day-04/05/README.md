@@ -1,4 +1,4 @@
-# Programming Challenges
+# Programming challenges
 
 ## These challenges are meant to strengthen your all-around coding skills and thinking.
 
