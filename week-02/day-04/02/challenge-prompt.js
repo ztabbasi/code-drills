@@ -1,20 +1,24 @@
 $(document).ready(function () {
+//In each instance, write your code directly below the question asking for it. 
+
+
+        //1. create a variable called text and have it equal an empty string
+    var text = "";
+        //2. create a function called randomizingText
+    function randomizingText() {}
+
+            //3. create a variable called possibleLetters set to a string containing the whole alphabet. For example possibleLetters = "ABCD..."
+        var possibleLetters = "abcdefghijklmnopqrstuvwxyz";
+            // 4. The text variable will continue to grow in length as the user clicks the question mark. Reassign the text variable to itself plus a new random letter. You will need to use the possibleLetters variable to accomplish this. Research the charAt() method if you're stuck.
+
+            //5. Finally have this function return the current value of the text variable
 
     $(".jumbotron").on("click", "#randomLetter", function () {
 
-        // create variable called text and have it equal an empty string
 
-        // create a function called randomizingText
+        // console.log the function randomizingText (don't forget to invoke the function)
 
-            // create a variable called possibleLetters and a string of A-Z
-
-            // have text equal to text plus possibleLetters at the string method of .charAt() at math floor and math random of the length of possible letters
-
-            // now return the text 
-
-        // console.log the function randomizingText 
-
-        // now lets append the text into a jquery selector of an id of letters
+        // append the text variable to the h1 tag with the id of letters
 
 
     });

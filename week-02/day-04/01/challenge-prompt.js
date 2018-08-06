@@ -1,14 +1,26 @@
-// document.ready makes sure the javascript doesn't load before the html page
-
+// This line of code ensures our javascript doesn't run until the DOM is fully loaded.
 $(document).ready(function () {
     
-    // HINT - remember onclick you need to write click as a string
-    $("body")
+    //As you saw in index.html, each letter of the alphabet can be found inside of an h3 tag with a class unique from the other letters.
+    //Create a click listener for each letter. Have each click event `append` the clicked letter to the div with the id of text-div.
+   
+    // $( "#target" ).click(function() {
+    //     alert( "Handler for .click() called." );
+    //   });
+
+    //   <h3 class="letterA"> A </h3>
     // write a onclick listener of .letterA 
-    
+
+       $("#h3").on("click", "#letterA" , function()  {
+        alert("letter A has been clicked");
         // append the letter A on the class of text-div
-        
+       $("#text-div").append("A");
+      });
+
     // write a onclick listener of .letterB 
+    $("#letterB").click(function()  {
+        alert("letter B has been clicked");
+    });
     
         // append the letter B on the class of text-div
         
